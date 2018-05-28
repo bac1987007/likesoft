@@ -1,0 +1,20 @@
+{
+  "entry": "src/index.js",
+  "publicPath": "/weblink/v1/",
+  "outputPath": "./src/main/resources/static/weblink/v1",
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr",
+        "transform-runtime",
+        ["import", {"libraryName": "antd", "style": true}]
+      ]
+    },
+    "production": {
+      "extraBabelPlugins": [
+        "transform-runtime",
+         ["import", {"libraryName": "antd", "style": true}]
+      ]
+    }
+  }
+}

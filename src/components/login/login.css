@@ -1,0 +1,60 @@
+.loginForm {
+  max-width: 350px;
+}
+.loginForgot {
+  float: right;
+}
+.loginButton {
+  width: 100%;
+}
+.login{
+  width:100%;
+  height: 650px;
+  background-image: url("./img/bgimg.gif");
+  background-size:cover;
+}
+.loginMain{
+  max-width: 313px;
+  background: #F0F8FF;
+  padding:40px 28px;
+  margin:0 15% auto auto;
+  transition: all .4s;
+}
+.loginMain:hover{
+  transform: translate(0,-7px);
+  transition: all .4s;
+  box-shadow: 5px 5px 4px #298bd6;
+}
+.loginKong{
+  height: 200px;
+  width: 100%;
+}
+.loginHeader{
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background: #FFF;
+}
+
+
+/*idrz Page*/
+.idrzBox{
+  width: 100%;
+  padding: 20px;
+}
+.idrzBtn{
+  margin-left: 40%;
+}
+.idrzCol{
+  margin-bottom: 10px;
+}
+.idrzFont{
+  font-size: 18px;
+}
+
+
+/*changePw Page*/
+.changePwBtn{
+  margin-left: 40%;
+}

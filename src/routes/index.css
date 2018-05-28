@@ -1,0 +1,12 @@
+#components-layout-demo-custom-trigger .trigger {font-size: 18px;line-height: 64px;padding: 0 16px;cursor: pointer;transition: color .3s;}
+#components-layout-demo-custom-trigger .trigger:hover {color: #108ee9;}
+#components-layout-demo-custom-trigger .logo {height: 32px;background: #333;border-radius: 6px;margin: 16px;}
+.icon{float: left;}
+.headerSearch{margin-left: 30px;}
+.left10{width: 96%;background: #333;color: #FFF;margin-top: 15px;}
+.header{background: #fff;padding: 0;height:50px;line-height: 50px;}
+.icon1{float:right;margin-right: 18px;margin-top: 12px;border: 0;}
+.height100{height: 100%;}
+.titDiv{margin: 16px 0 16px 23px;height: 20px;overflow: hidden;}
+.titDiv img{float: left;display: inline-block;}
+.titP{float: left;margin-left:26px;display: inline-block;font-size: 12px;color: #FFFFFF;overflow: hidden;white-space:nowrap;}

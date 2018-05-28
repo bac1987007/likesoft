@@ -1,0 +1,9 @@
+
+html, body, :global(#root) {
+  height: 100%;
+  /*height:auto;*/
+}
+
+:global(.pd16){
+  padding: 16px;
+}

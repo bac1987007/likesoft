@@ -1,0 +1,14 @@
+.mainh{height: 550px;;padding: 15px;box-sizing: border-box;}
+.headh{height: 40px;border-bottom: 1px solid #cccccc;}
+.headb{height: 30px;border-top: 1px solid #cccccc;}
+.conh1{height: 30px;margin-top: 5px}
+.col1{background-color: #fff;height: 100%;padding: 0!important;}
+.col3{height: 100%;padding: 0!important;}
+.coh2{padding:17px 0;height:70px;}
+.p1{font-size: 14px;line-height: 40px}
+.pie{margin:0 auto;height: 350px;}
+.shadow{height:550px;box-shadow:5px 5px 5px #999;border-radius: 5px;}
+.shadow1{height:550px;box-shadow:5px 5px 5px #999;border-radius: 5px;margin-left:10px;background-color: #FFFFFF}
+.tab1{width: 100%;height: 410px;}
+.icon1{border: 0;margin-top: 5px;}
+.myrow{margin: 0!important;height: 100%;}

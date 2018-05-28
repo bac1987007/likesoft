@@ -1,0 +1,243 @@
+
+.editable-row-text {
+  padding: 5px;
+}
+.editable-row-operations a {
+  margin-right: 8px;
+}
+
+.DeviceHeader{
+  width: 100%;
+  margin: 1rem auto;
+}
+.DeviceHeader h2{
+  display: none;
+}
+.DeviceInput{
+  width:30%;
+  display: inline-block;
+}
+.DeviceMLeft{
+  margin-left: 15px;
+  display: inline-block;
+}
+.listViewP{
+  margin: 1rem auto;
+}
+
+.HideClass{
+ display: none;
+}
+
+/*checkWork  page*/
+
+.myCheckWorkMain{
+  padding: 20px;
+  width: 100%;
+}
+.LeftmyCheckInput{
+  margin-left:40px;
+  width:21%;
+  display: inline-block;
+}
+.myCheckWorkHeader{
+  margin:10px auto;
+  color: #333;
+}
+.myCheckWorkInput{
+  width: 15px;
+  display: inline-block;
+}
+.mycheckWOrkButton{
+  margin-left: 15px;
+}
+/*workOrder Page*/
+.workOrderMain {
+  background: #FFF;
+}
+
+.workOrderDiv{
+  margin-bottom: 15px;
+}
+.workOrderDiv2{
+  margin-left: 65px;
+}
+.workOrderHidden{
+  width: 245px;
+  overflow: hidden;
+  margin-left: 1rem;
+}
+.taskAudio{
+  width: 245px;
+  overflow: hidden;
+  margin-left: 5rem;
+}
+.workOrderGrop{
+  margin-left: 8px;
+}
+.workOrderImg{
+  width:16%;
+  height:45px;
+  margin-left: 15px;
+}
+.workOrderBigImg{
+  width:120%;
+  height: 100%;
+  margin-left: -18%;
+}
+.styDisplay{
+  display: none;
+}
+.workOrderBtn1{
+  display: inline-block;
+  width: 80%;
+  height: 35px;
+  line-height: 35px;
+  margin-left:10% ;
+  margin-bottom: 1rem;
+  background: #F58345;
+  color: #FFF;
+}
+.workOrderBtn1:hover{
+  background: #F58345;
+  border-color: #F58345;
+  color: #FFF;
+}
+.workOrderBtn1:focus{
+  background: #F58345;
+  border-color: #F58345;
+  color: #FFF;
+}
+.checkWorkFont{
+  font-size: 14px;
+  color: #333333;
+}
+.borderNone{
+  border:none;
+  background-color: #FFF;
+  padding: 12px;
+  color: #000000;
+}
+.workOrderTit{
+  background: #fff;
+  padding: 6px;
+  margin-left: 5px;
+  margin-bottom: 4px;
+}
+.workOrderTit2{
+  background: #fff;
+  padding: 6px;
+  margin-bottom: 1px;
+  overflow: hidden;
+}
+.workOrderCollapse{
+  padding: 6px;
+}
+.confirm{
+  width:110%;
+  margin-left: 10%;
+}
+.borderBottom {
+  border-bottom: 2px solid #333333;
+}
+label{
+  font-size: 13px;
+}
+
+/*devicePrint*/
+.devicePrintMain{
+  width: 1200px;
+  margin: 20px auto;
+}
+.devicePrintInput{
+  width:40%;
+  display: inline-block;
+}
+.ercodeUrlsStyle{
+  display:inline-block;
+  width: 200px;
+  margin-left:50px;
+  margin-bottom: 25px;
+}
+
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .sectionToPrint,
+  .sectionToPrint * {
+    visibility: visible;
+  }
+  .sectionToPrint {
+    width: 650px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .sectionNotToprint {
+    display: none;
+  }
+}
+/*设备编码input输入框 */
+.einput {
+  width: 20%;
+  margin: 0 8px 8px 0;
+  display: inline-block;
+}
+
+/*折线图CSS*/
+.serchInput{
+  padding: 10px 0 10px 0;
+  background-color: #333;
+ width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.inlineBlock{
+  display: inline-block;
+}
+
+.Color333{
+  color: #333333;
+}
+
+/*pc*/
+@media screen and (min-width: 768px) {
+  .textAli{
+    display:inline-block !important;
+  }
+  .mrLeft20{
+    margin-left: 20px;
+  }
+  .mrLeft10{
+    margin-left: 10px;
+  }
+  .formSet{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    color: #FFF !important;
+    margin-left: 20%;
+  }
+}
+/*yd*/
+@media screen and (max-width: 768px){
+  .textAli{
+    display: block;
+    text-align: center;
+  }
+  .mrLeft20{
+    width:96% ;
+  }
+  .mrLeft10{
+    margin-left: 10px;
+    width: 45%;
+  }
+  .formSet{
+    text-align: center;
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    color: #FFF !important;
+  }
+}

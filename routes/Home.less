@@ -1,0 +1,171 @@
+/* transitions */
+
+//定义变量
+@head-height: 60px;
+
+.fade-enter {
+  opacity: 0.01;
+  transition: opacity .5s ease-in;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+}
+
+.fade-leave {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0.01;
+}
+
+/* TODO: Move to its own module */
+.data-filter .btn {
+  margin-top: 24px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.MainFooter {
+  border: 1px dashed #f00;
+}
+
+.home_header_txt {
+  height: 50px;
+  line-height: 50px;
+  color: #000000;
+}
+
+.toggle {
+  height: 50px;
+  line-height: 50px;
+  color: #000000;
+  padding-left: 10px;
+}
+
+.sidebarFont_1 {
+  position: relative;
+  font-size: 15px;
+  font-weight: bold;
+  //color: #bb1b21;
+}
+
+//.arrow {
+//  position: absolute;
+//  right: 0px;
+//  top: 50%;
+//  margin-top: -7.5px;
+//}
+
+.arrow:after {
+  font-family: "anticon" !important;
+  font-style: normal;
+  vertical-align: baseline;
+  text-align: center;
+  text-transform: none;
+  text-rendering: auto;
+  position: absolute;
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+  content: "\E61D";
+  right: 0px;
+  top: 0;
+  display: inline-block;
+  font-size: 12px;
+  font-size: 8px \9;
+  -webkit-transform: scale(0.66666667) rotate(-90deg);
+  -ms-transform: scale(0.66666667) rotate(-90deg);
+  transform: scale(0.66666667) rotate(-90deg);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=1, M12=0, M21=0, M22=1)";
+  zoom: 1;
+}
+
+.sidebarFont_2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.new_main_header {
+  border-bottom: 2px solid #bb1b21;
+}
+
+.main_header_title {
+  height: @head-height !important;
+}
+
+.newLogo {
+  width: 100% !important;
+  background-color: #ffffff !important;
+  text-align: left !important;
+  height: @head-height !important;
+  padding: 5px !important;
+}
+
+.newLogo .txt{
+  font-family: 微软雅黑 !important;
+  color: #222 !important;
+  float:right;
+  font-weight: 400;
+  font-size:16px;
+}
+
+.newNavbar {
+  background-color: #ffffff !important;
+}
+
+.content_title {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  margin-left: 1px;
+}
+
+.newMenu {
+  background-color: #ffffff !important;
+  padding-top: @head-height !important;
+}
+
+.header {
+  height: 50px;
+
+}
+
+.welcome {
+  width: 100%;
+  height: 100%;
+  background-color: #fffceb;
+}
+
+.welcome .top {
+  position: relative;
+  width: 100%;
+  //height: 400px;
+  //height: 100%;
+}
+
+.welcome .top .wel_txt {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -283px;
+}
+
+.welcome .bottom {
+  //height: 300px;
+  //height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.welcome .bottom .wel_icon {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -699px;
+}
